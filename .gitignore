@@ -1,0 +1,19 @@
+# 本机凭据与缓存，永远不要提交
+auth.json
+context.json
+*.token
+*.secret
+.env
+.env.*
+.venv/
+
+# 抓包产生的临时文件
+tmp/
+*.tmp
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/

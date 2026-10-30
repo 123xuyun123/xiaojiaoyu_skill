@@ -1,0 +1,656 @@
+{
+  "size": 10,
+  "current": 1,
+  "status": 0,
+  "logicTypeIds": null,
+  "phaseId": "10000",
+  "courseId": "10005",
+  "isDesc": true,
+  "sortMode": 1,
+  "tagIdsType": 0,
+  "textBookId": "130",
+  "classicType": null,
+  "ruleType": null,
+  "search": "",
+  "dimensionTagList": [
+    {
+      "dimensionId": "112",
+      "tagId": "170321"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170323"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170324"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170327"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170328"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170330"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170331"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170332"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170333"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170336"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170337"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170338"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170340"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170341"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170342"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170343"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170344"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170345"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170358"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170359"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170360"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170361"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170362"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170363"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170364"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170366"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170368"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170369"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170370"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170371"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170373"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170375"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170376"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170377"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170379"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170380"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170381"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170382"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170384"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170385"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170386"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170388"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170389"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170390"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170391"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170392"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170393"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170394"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170397"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170398"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170400"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170401"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170402"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170403"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170404"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170406"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170407"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170408"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170409"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170410"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170412"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170413"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170414"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170416"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170417"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170418"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170420"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170421"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170422"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170424"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170425"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170426"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "330412"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170429"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170430"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170431"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170432"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170434"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170435"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170438"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170439"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170440"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170441"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170442"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170443"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170445"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170446"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170447"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170449"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170450"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170451"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170454"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170455"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170456"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170458"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170459"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170460"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170462"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170463"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170464"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170465"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170466"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170468"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170469"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170470"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170473"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170474"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170475"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170478"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170479"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170480"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170481"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170482"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170484"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170485"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170486"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170487"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170488"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170489"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170490"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "330413"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170492"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170494"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170495"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170496"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170497"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170499"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170500"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170501"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170502"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170503"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170505"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170506"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170508"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170509"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170511"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170512"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170513"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "317585"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170515"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170516"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170518"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170519"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170520"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170522"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170524"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170525"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170526"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170527"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170528"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170529"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170530"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170531"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "330414"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "330415"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170535"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170536"
+    },
+    {
+      "dimensionId": "112",
+      "tagId": "170537"
+    }
+  ],
+  "textBookCatalogId": "4825",
+  "userId": "${userId}",
+  "filterOutUserSchoolId": "${schoolId}",
+  "filterOutUserGradeId": [
+    "${gradeId}"
+  ],
+  "scope": 1
+}

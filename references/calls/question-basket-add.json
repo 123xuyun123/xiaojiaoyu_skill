@@ -1,0 +1,30 @@
+{
+  "description": "把题目批量加入试题篮（组卷第一步）",
+  "method": "POST",
+  "path": "/api/v3/server_questions/questions/basket/batch",
+  "body": {
+    "userId": "${userId}",
+    "phaseId": "${phaseId}",
+    "phaseName": "${phaseName}",
+    "courseId": "${courseId}",
+    "courseName": "${courseName}",
+    "questionIds": [
+      "1249318912337007385"
+    ],
+    "typeIds": [
+      "1038"
+    ],
+    "typeNames": [
+      "实验题"
+    ],
+    "questionNumbers": [
+      1
+    ],
+    "source": 1,
+    "typeOrdered": "",
+    "questionSource": "1"
+  },
+  "verified": true,
+  "capturedAt": "2026-10-30",
+  "notes": "questionIds/typeIds/typeNames/questionNumbers 四个数组必须一一对应且等长，缺一个会 500。typeIds 取题目的 logicTypeId，typeNames 取 logicTypeName，questionNumbers 一般是 1。${userId} 等占位符由 CLI 从 ctx 自动替换。"
+}

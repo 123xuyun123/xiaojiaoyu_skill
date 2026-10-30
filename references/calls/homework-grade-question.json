@@ -1,0 +1,24 @@
+{
+  "description": "保存单个学生单题的批改得分（可批量）",
+  "method": "PUT",
+  "path": "/api/v3/server_homework/homework/question/answer/review",
+  "body": {
+    "questionAnswerList": [
+      {
+        "questionAnswerId": "${questionAnswerId}",
+        "score": 10,
+        "pointsMode": 1,
+        "teacherId": "${teacherId}",
+        "scoreMarks": [],
+        "comments": [],
+        "penLines": [],
+        "judgeMarks": [],
+        "markWay": "1",
+        "schoolYear": 20263
+      }
+    ]
+  },
+  "verified": true,
+  "capturedAt": "2026-10-30",
+  "notes": "questionAnswerId 是「学生 + 题目」维度的答案 ID，用 --set questionAnswerList.0.questionAnswerId=... 传入；${teacherId} 由 ctx 自动替换。questionAnswerList 放多条即可批量提交。已用原分数重放验证，不会改变成绩。schoolYear 用自己学校抓到的五位格式。"
+}

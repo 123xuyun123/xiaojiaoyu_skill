@@ -1,0 +1,11 @@
+{
+  "description": "从试题篮移除题目（body 直接是题目 ID 数组）",
+  "method": "DELETE",
+  "path": "/api/v3/server_questions/questions/basket",
+  "body": [
+    "1249318912337007385"
+  ],
+  "verified": true,
+  "capturedAt": "2026-10-30",
+  "notes": "body 必须是纯数组：[\"questionId1\",\"questionId2\"]。用 --body @文件 覆盖，不要用 --set。"
+}

@@ -1,0 +1,6918 @@
+[
+  {
+    "path": "/api/v3/server_base/high/exam/volume/label/set/region/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_base/label/phase/course/config/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_base/textbook/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_base/textbook/tree",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_base/textbook/tree/v2",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_base/textbook/type/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book_export/essay/report/export/word",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book_export/questions/export/word",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book_export/questions/export/word/max",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book_export/student/mistake/questions/export/word/all",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/export/teacher/default/getOwn",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/export/teacher/default/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/export/user/setting",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/export/user/setting/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/re/practice/questions/basket",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/re/practice/questions/basket/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/mistake",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/mistake/add/all/basket",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/mistake/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/mistake/new/add/all/basket",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/mistake/new/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/mistake/new/v2",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/mistake/v2",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/questions/basket/add/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/questions/basket/clear",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/questions/basket/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/questions/basket/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/questions/basket/parent/clear",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/questions/basket/remove/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/reinforce/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/reinforce/batch/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/reinforce/batch/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/student/reinforce/batch/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/teacher/mistake",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/teacher/mistake/class",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/teacher/mistake/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/teacher/mistake/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/teacher/mistake/export/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/teacher/mistake/export/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/teacher/mistake/export/progress",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/teacher/mistake/new/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/teacher/mistake/new/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/teacher/mistake/new/saveAllBasket",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/teacher/mistake/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/teacher/mistake/re/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/teacher/mistake/split/statistics",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/teacher/mistake/statistics",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_error_book/teacher/mistake/type",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/achievement/analysis/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/achievement/analysis/manage/cancel/republish",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/achievement/analysis/manage/collect/small/question/file",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/achievement/analysis/manage/collect/total/score/file",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/achievement/analysis/manage/english/listen",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/achievement/analysis/manage/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/achievement/analysis/manage/next",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/achievement/analysis/manage/reissue",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/achievement/analysis/manage/republish/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/achievement/analysis/manage/republish/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/achievement/analysis/manage/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/achievement/analysis/manage/submit/reality/missing",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/achievement/analysis/manage/unfinished/reissue",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/ai/review/again",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/ai/review/modify/log/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/ai/review/task",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/class/adjustment",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/class/batch/adjustment",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/class/exam/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/class/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/class/not/examination",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/class/number",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/class/student/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/class/student/number",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/dictionary/student/choose/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/dictionary/student/upload/template",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/authority/combination/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/relation/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/relation/{var}/publish/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/relation/grade/show/state/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/relation/grade/show/state/update",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/relation/joint/task/allocation",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/relation/list/by/teacher/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/relation/list/copy",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/relation/list/for/allocation/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/relation/paper/produced/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/relation/paper/publish/state",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/relation/setting/setTestReviewFlag",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/school/{var}/school/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/school/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/school/task",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/small/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/template/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/template/list/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/course/template/list/dialog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/electronic/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/english/hear/config/delete/student/module",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/english/hear/config/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/english/hear/config/saveOrUpdate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/english/hear/config/student/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/english/hear/config/template/down",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/english/hear/config/template/up",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/grade/collect/error/log/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/grade/collect/error/log/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info/class/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info/class/list/for/history",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info/course/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info/course/list/for/history",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info/list/by/teacher",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info/list/for/allocation",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info/list/for/allocation/all",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info/list/for/history",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info/move/card/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info/previous/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info/published/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info/scan/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info/student/course/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/info/year/list/for/history",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/issue/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/list/for/copy",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/monitor/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper",
+    "method": "POST"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/complete",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/complete/validation",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/copy",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/copy/custom",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/copy/third",
+    "method": "POST"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/custom/sheet/paper/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/down/status/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/export/third/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/export/third/update/score",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/json",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/json/clear/{var}/clearSplitQuestions/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/json/config/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/json/extend/batch/update",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/json/extend/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/json/extend/query/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/list/make/up",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/make/up",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/mark/third/card",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/operation/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/prepare/lessons/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/{var}/score/type/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/answer/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/correct",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/english/getObjectQuestions/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/english/haveListening/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/english/setListeningQuestions",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/english/setOriginQuestions/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/knowledge/calc",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/knowledge/calc/status",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/list/all/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/list/flat/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/list/flat/all/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/list/preview",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/list/science/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/list/split/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/optional",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/optional/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/report/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/score",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/split",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/split/{var}/canceled",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/split/canceled/scan/finish",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/split/question/canceled/scan/finish",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/split/question/scan/finish",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/split/scan/finish",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/subjective/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/third/structure",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/third/upload",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/question/upload/question/list/preview",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/score/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/template/upload/file",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/third",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/update/down/status/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/upload/file",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/upload/word/file",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/paper/word/question",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/problem/course/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/problem/nums/ByCourse",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/problem/paper/cancel",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/problem/paper/dispose",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/problem/paper/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/problem/paper/number/problem/type",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/problem/paper/objective/picture",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/problem/paper/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/problem/template/card/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/problem/template/json/config",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/resolve/config/{var}/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/review/setting/update/review/mode",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/abnormal/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/analysis/cheat",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/card/abnormal/rescan",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/choose/question/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/missing/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/mount/student/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/objective/question/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/question/card/replace",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/question/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/question/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/reality/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/reality/missing/submit",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/reality/rescan",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/reality/submit",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/sheet/recycle",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/sheet/use/picture",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/should/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/subjective/question/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/unknown/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/analysis/unknown/missing/submit",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/batch/course/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/batch/title",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/client/find",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/dispose/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/dispose/number",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/dispose/title",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/export/all/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/export/small/question/template",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/export/student/missing",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/export/student/question/score",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/export/student/reality",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/export/student/unknown",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/export/total/score/template",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/new/analysis/all/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/new/analysis/batch/bevel/neglect",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/new/analysis/batch/neglect",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/new/analysis/merge/image",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/new/analysis/neglect",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/new/analysis/objective/question/red/box",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/new/analysis/recycle/title",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/new/analysis/reference/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/new/analysis/sheet/picture",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/new/analysis/unconnected/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/new/analysis/unconnected/picture",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/new/examCode/repeat",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/new/scanBatch/combo/box",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/new/upload/three/image",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/progress/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/scan/progress/title",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/setting/student/view/object/template/detail/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/setting/student/view/object/template/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/setting/teacher/view/object/template/detail/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/setting/teacher/view/object/template/saveBatch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/setting/teaching/view/object/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/setting/teaching/view/object/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/setting/view/object/joint/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/setting/view/object/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/setting/view/object/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/setting/view/object/student/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/setting/view/object/student/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/setting/view/object/teacher/authority",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/situation/course/question/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/situation/student/courses",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/situation/student/grade/republish",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/situation/student/question/score/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/situation/typical/question/allData",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/situation/typical/question/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/situation/typical/question/listV2",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/teaching/statistics/priority/question/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/teaching/statistics/priority/question/order",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/teaching/statistics/priority/question/remove",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/teaching/statistics/priority/question/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/third/grade/student/error/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/third/grade/student/error/remove",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/third/grade/student/export/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/third/grade/student/match/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/third/grade/student/match/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/third/grade/student/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/exam/third/grade/student/remove",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/guide/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/guide/page/user/{var}/page/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/intelligentRecommendation/exam/school",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/largeScreen/examCourse",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/largeScreen/timeSlot",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/message/get/item/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/message/set/message/item",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/paper/confirm/mark",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/paper/judge/login",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/permission/exam/config/copy",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/permission/exam/config/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/permission/exam/config/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/permission/exam/config/save/all",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/permission/exam/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/permission/exam/switch/status",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/permission/global/config/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/permission/global/config/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/permission/global/switch/status",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/permission/multi/exam/allow/update",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/permission/multi/exam/config/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/permission/operation/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/permission/show/hidden/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/permission/show/hidden/update",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/progress/allocate/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/progress/course/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/progress/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/progress/question/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/progress/question/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/progress/school/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/progress/split/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/progress/teacher/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/progress/teacher/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/first/read/later/scan/question/teacher/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/first/read/later/scan/read/score",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question/{var}/startup/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question/again/allocation",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question/all/{var}/startup/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question/amount/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question/amount/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question/arbitration/teacher/update",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question/calculate/teacher/task",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question/clear/allocating/task",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question/copy",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question/list/by/role",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question/number/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question/paper/{var}/school/{var}/startup/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question/paused/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question/query/unread/amount",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question/score",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/question/stage",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/rejected/amount/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/rejected/list/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/{var}/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/all/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/allocation/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/arbitration/sms",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/download/errorData",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/import",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/import_new",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/import/template",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/import/template_new",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/list/reallocate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/school/all/startup",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/split",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/startup",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/student/again",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/student/reviewed/list/all",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/student/reviewed/list/by/id",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/student/reviewed/list/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/student/reviewed/previous",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/student/reviewed/quantity/list/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/student/score/all/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/student/score/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/task/teacher/student/unreviewed/next",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/trialReviewLog/createTrialReview",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/trialReviewLog/deleteTrialReview",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/review/trialReviewLog/selectTrialReviewTure",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/school/no/role/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/objective/error/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/question/anew/cutout",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/question/object/dataAnalysis",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/question/read/student/subjective/trace",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/question/read/teacher/subjective/trace",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/question/read/teacher/trace",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/question/read/teacher/trace/temporary",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/question/subject/dataAnalysis",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/question/subject/statistic",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/question/update/choose/answer",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/question/update/objective/answer",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/question/update/subjective/answer",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/question/update/subjective/answer/score",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/read/gray/zone/card",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/read/raw/scan/card",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/reality/remove/card",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/remove/abnormal/card",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/remove/recycle/card",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/sheet/template/combo/box",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/course/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/education/import/file",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/error/dialog/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/error/repeat/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/error/repeat/update",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/exam/compare/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/exam/getMissOrCheat",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/examination/mode",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/export/error/excel",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/export/excel",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/export/excel/missing",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/find/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/haveCollectStudent",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/haveMatchStudent",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/judge/upload/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/match",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/match/school/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/newly/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/previous/class/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/previous/exam/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/previous/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/previous/senate/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/remove",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/temporary/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/title",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/student/update",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/class",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/combination/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/export/select/class/scoring/ratio",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/export/select/class/type/scoring/ratio",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/export/select/question/analysis/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/export/select/school/scoring/ratio",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/export/select/school/type/scoring/ratio",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/export/temporaryGrades",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/export/temporaryGrades/strong",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/getClassExamDataByTemp",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/getExamTemporaryClassListVO",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/getQuestionCountDataByExam",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/getQuestionTypeCountDataByExam",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/release",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/school",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/select",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/select/class/scoring/ratio",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/select/class/type/scoring/ratio",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/select/question/analysis/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/select/school/scoring/ratio",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/temporaryGrades/select/school/type/scoring/ratio",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/typicalQuestions/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/typicalQuestions/delete",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/typicalQuestions/getExamTypicalIs",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_new/typicalQuestions/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/batchDownLoadExamInfo/excelExport",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/batchDownLoadExamInfo/excelJointExport",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/batchDownLoadExamInfo/getExportProgressByIds",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/big/screen/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/big/screen/list/default",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/comparison/class/setting/get",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/comparison/class/setting/saveOrUpdate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/criticalProductionLine/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/examQuestionScoreRateGroup/checkSupportGroup",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/examQuestionScoreRateGroup/findQuestionGroupList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/examQuestionScoreRateGroup/findQuestionListByCourseId",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/examQuestionScoreRateGroup/saveQuestionGroup",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/export/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/export/batch/retry",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/export/batch/student/small/question",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/export/isShowOnlyObjective",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/export/joint/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/export/record/delete",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/export/record/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/export/record/update",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/intelligentRecommendation/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/intelligentRecommendation/saveData",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/card/export/record/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/assign/check/publish",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/assign/dataList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/assign/getSetParam",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/assign/levelListForSet/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/assign/saveSetParam",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/assign/total/score",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/course/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/courseForAssign",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/english/getScoreRule",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/english/updateScoreRule",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/export/score/template",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/history/exam",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/history/exam/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/historyExamList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/home",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/import/score/template",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/joint/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/joint/record/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/sheet/card/generate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/study/courseRate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/study/rank",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/study/title",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/title/course/allClassList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/title/course/classList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/exam/title/courseList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/avgScore",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/basic",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/export/exportAcademicGradeDistribute",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/export/exportJointFloatStudent",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/export/exportJointOnLine",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/export/exportJointRateAnalysisV2",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/export/exportJointScoreGroup",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/export/exportJointTotalScoreLine",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/export/exportSchoolOnlineStudent",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/export/exportSchoolTopStudent",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/export/exportStudentCourseQuestionDetail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/export/exportStudentCourseQuestionTypeDetail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/getAllSchoolCompareList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/jointLineCriticalNumber",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/jointLineTotalScore",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/jointOnlineData",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/jointRankSectionData",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/jointRateAndScore",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/jointScoreSectionData",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/queryJointCommonSet",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/reportCommonSet",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/schoolTopList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/joint/topList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/knowledge/points/analysis/courseList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/knowledge/points/analysis/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/knowledge/points/analysis/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/knowledge/points/analysis/reviewPaper/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/knowledge/points/analysis/reviewPaper/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/knowledge/points/analysis/setting",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/knowledge/points/analysis/system/dimension/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/allRealNumber",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/class/level/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/classRankSection",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/classScoreCompare",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/classScoreRateCompare",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/classScoreRateCompareByQuestionType",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/classScoreSection",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/courseLineData",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/courseLineTitle",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/courseTotalScore",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/exam/paperQuestionSomeClass",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/classRankSection",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/classScoreCompare",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/classScoreCompare/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/classScoreRate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/classScoreRateByQuestionType",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/examComphensiveScore",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/examPaperAnalysis",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/examQuestionAnalysis",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/lineSection",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/lineSection/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/quartile",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/queryClassAverage",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/queryCourseScoreSummary",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/queryCourseScoreSummaryStudent",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/queryHistory",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/queryScoreGap",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/queryTScore",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/question/difficulty/distinction",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/rankSection/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/reportQuestion",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/scoreSection/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/export/scoreSegmentationExcel",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/exportQuestionCountData",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/exportQuestionKnowledgeCountData",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/getClassExamData",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/getCourseLine",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/getQuestionCountData",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/getQuestionTypeCountData",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/queryCourseScoreSummary",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/question/difficulty",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/question/distinction",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/questionAnalysis/paper",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/questionAnalysis/question",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/paper/setCourseLine",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/setting/checkSave",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/setting/export/exclude",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/setting/import/exclude",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/setting/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/setting/query",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/setting/query/single",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/setting/release/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/setting/release/save/V2",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/setting/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/setting/title/courseList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/student/courseQuestionScore",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/student/courseQuestionScoreList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/student/courseScore",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/student/courseScore/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/student/lastFive",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/student/lineSection/studentPage/data",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/student/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/student/rankSection/studentPage/data",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/student/scoreCompare/studentPage/data",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/student/scoreCompare/studentPage/title",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/student/scoreSection/studentPage/data",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/student/scoreSummary/studentPage/data",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/student/studentScore",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/report/student/take/number",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/student/exam/compare/export/all",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/student/exam/compare/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/teaching/quality/config/insertByReportId",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/teaching/quality/config/selectByReportId",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/teaching/quality/report",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/teaching/quality/report/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/teaching/quality/report/course/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/teaching/quality/report/datasource/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/teaching/quality/report/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/teaching/quality/report/publish/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam_report/teaching/quality/report/publish/again",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_exam/exam/paper/question/list/split/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/ai/review/type",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/img/position",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/back",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/cancel/connect",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/cancel/connect/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/class/ext/scan",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/class/review/progress",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/class/submit/summary",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/class/submit/summary/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/connect",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/connected/log/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/count/history",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/extIds",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/identify",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/list/history",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/rawScan",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/replace/studentCode",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/review/progress",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/review/rawScan",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/review/rawScan/exam",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/reviewed/picture",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/scan/unmount",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/schools/unidentified",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/student/questions/answer",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/answer/sheet/studentCode/sheet",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/auto/review/class/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/auto/review/school",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/class/level/settings",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/class/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/class/student/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/class/student/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/common/template/school/homework/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/common/template/school/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/details/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/essay/report/export/record/clear",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/essay/report/export/record/delete",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/essay/report/export/record/execute",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/essay/report/export/record/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/essay/report/export/record/progress",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/essay/report/export/record/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/essay/report/export/record/update",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/essay/report/feedback",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/export/students/rank",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/grade",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/grade/mistake/num",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/learning/analysis/score/range/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/learning/analysis/student/question/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/listening",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/mark/sheet/score",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/master/screen/settings",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/name/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/name/list/exam",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/online",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/online/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/online/answer/show",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/online/class",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/online/end/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/online/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/online/question/answer/store",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/online/question/answer/store/answer/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/plat/use/case",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/point/videos/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/ai/report",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/ai/report/homework",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/ai/report/position",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/choice/answer",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/classes/mistake/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/classes/reviews",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/classes/student/mistake/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/classes/student/mistake/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/essay/report/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/essay/report/hidden",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/essay/report/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/essay/report/student/question",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/explain",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/marks",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/question/score",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/review",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/score",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/sheet/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/statistics",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/statistics/scan",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/statistics/scan/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/statistics/split",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/student/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/answer/student/options",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/typical",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/question/typical/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/questions/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/questions/{var}/parent",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/report/class/compare",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/report/class/compare/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/report/class/compare/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/report/class/compare/student/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/report/class/correct",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/report/excel/class/correct",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/report/excel/school/scan/data",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/report/random/rawScan",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/report/school/scan/data",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/report/school/scan/data/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/report/school/scan/data/pdf",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/report/school/scan/realTime/table",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/school/question/group",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/screen/review/msg",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/screen/sheet/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/screen/subjective/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/sheet/info/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/sheet/info/check",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/sheet/info/identify/again",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/show",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/students/classes/page/missing",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/students/identify/answer/sheets",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/students/submitted",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/teacher/class",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/teacher/settings",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/teachers/homework/type",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/teachers/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/teachers/review/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/class/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/code",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/common/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/common/batch/sheet",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/common/homework",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/common/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/common/sheet/templateNumber",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/common/templateNumber",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/common/templateNumber/sheet",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/detail/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/extra/name",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/has/online/homework",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/homework/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/question/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/question/auto/review",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/question/correct/answers",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/question/correct/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/question/knowledge/analysis/tree",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/question/knowledge/system/tree",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/question/list/choose",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/question/numbers",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/questions/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/self",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/self/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/self/copy",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/self/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/self/operation/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/self/preview/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/self/preview/question",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/self/question",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/self/question/auto/review",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/self/questions/update",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/self/questions/update/answer",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/self/status",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/user/catalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/template/user/catalog/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/homework/upload",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/student/homework/{var}/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/student/homework/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/student/homework/online/answer",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/student/homework/online/is/answer",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_homework/student/homework/type",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_mark/exam-marks",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_mark/exam-marks/image",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_mark/marks",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_mark/marks/ai-report-image",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_mark/marks/image",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_parse/api/parse",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_parse/api/sanitize",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_sheet_new/answerSheet/download",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_sheet_new/answerSheet/position",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_sheet_new/answerSheet/preview",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_sheet_new/answerSheet/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_sheet_new/office/download",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_sheet_new/pdf/download",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_sheet_new/pdf/downloadBook",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_sheet_new/pdf/downloadJointExamReport",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_sheet_new/pdf/downloadStudentReport",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_sheet_new/pdf/webToPdf",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_sheet_new/webVersions/record",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_node_sheet/make/pdfBuffer",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_office_file/file/download",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_office/office/file/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_office/office/file/margin/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_office/office/file/produce",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_office/office/file/rename",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_office/system/file/last/version",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/allot/distribut/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/allot/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/allot/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/allot/task/allocationTeacherList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/allot/task/changeTeacherList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/allot/task/distribut",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/allot/task/distribut/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/allot/task/distribut/teacher",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/allot/task/queryTeacherList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/allot/task/readNum/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/allot/task/teacher/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/arbitration/allocationTeacherList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/arbitration/changeTeacherList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/arbitration/queryTeacherList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/batchDownLoadExamInfo/getPublishReportCourseMessage",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/clem/{var}/exam/evaluation/question_nums",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/clem/learning/situation/examCourse/results/overview",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/clem/missExamStudents/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/clem/new/read/progress/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/clem/pc/exam/task/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/clem/pc/examCourse/results/analysis",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/clem/pc/examReadHeader/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/clem/pc/examReviewHeader/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/clem/pc/releaseTeacherQuestion/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/clem/sheetScanCheck/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/emNum/{var}/update/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/cee/delete/students",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/cee/manage/student/match/saveOrUpdate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/cee/manage/student/saveOrUpdate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/course/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/course/pattern/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/course/template/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/down/box/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/editorDate/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/error/manage/student/delete",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/error/manage/student/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/exam_paper_save/paperConfJson",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/examIssue/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/examManageDate/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/manage/count/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/mark/multi/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/mark/multi/teacher/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/modelTypeList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/cancel/examIssue/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/class",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/copy/question",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/course/admin/scan",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/monitor/total/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/questNum/sch/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/questNum/sch/detail/zk",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/questNum/sch/detail/zks",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/questNum/sch/detail/zkst",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/questNum/sch/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/questNum/teacher/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/questNum/teacher/detail/zk",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/questNum/teacher/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/read/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/readDist/{var}/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/readWay/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/set/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/studNum/class",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/studNum/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/exam/studNum/title",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/examDistribut/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/examDistribut/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/examDistribut/teacher",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/isnotFullScore",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/not/count/total/score",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/question/set/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/saveOrUpdate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/template/jsonconf",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/new/update/isCard/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/out/paper/way",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/paper/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/paper/school/task",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/paper/set/question/scores",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/paper/template/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/paper/template/find/condition/exam",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/paper/template/question/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/paper/template/question/preview",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/paper/template/thirdSheetStructure/detail/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/paper/template/thirdSheetStructureImg/detail/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/paper/template/thirdSheetStructureImg/insert",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/queryComprehensiveSetStatus",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/saveOrUpdate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exam/student/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/export/error/read/teacher",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/export/exam/testCode",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/export/student/examCode",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/exportExamCode",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/import/new/entrance/students",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/import/read/teacher",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/import/students{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/init/exam/data",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/level/set/change",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/review/course/num/scores/listPage",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/review/findClass",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/review/findTeacher",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/review/insertTeacher",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/review/select/all/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/review/updateTchTask",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/reviewOpen/findAll",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/reviewOpen/update",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/split/card/allot/task/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/split/card/progress",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/task/new/tasl/anno/stop",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/task/new/tasl/distribut/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/task/new/tasl/distribut/teacher/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/task/new/tasl/increased/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/task/new/tasl/multi/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/task/new/tasl/quest/anno/stop",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/task/new/tasl/readNum/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/task/new/tasl/teacher/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/task/read/teacher/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/teacher/error/read/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_paper/teacher/error/whether/read",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/{var}/catalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/{var}/catalog/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/{var}/catalog/book/copy",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/{var}/catalog/level/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/{var}/catalog/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/{var}/catalog/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/{var}/catalog/paper",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/{var}/catalog/paper/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/{var}/catalog/paper/book/copy",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/{var}/catalog/paper/info/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/{var}/catalog/paper/level/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/{var}/catalog/paper/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/{var}/catalog/paper/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/{var}/catalog/question/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/attribute/name/metadata",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/attribute/value/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/attribute/value/config",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/attribute/value/list/{id}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/attribute/value/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/attribute/value/previous/year/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/book/catalog/detail/{var}/attribute",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/book/catalog/detail/attribute",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/book/catalog/detail/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/book/catalog/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/book/catalog/list/all/teaching/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/book/catalog/list/ids",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/book/catalog/list/teach/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/book/catalog/province/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/catalog/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/catalog/questions/list/catalog/name",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/catalog/questions/path/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/catalogNew/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/category/attribute/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/category/attribute/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/category/attribute/42",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/category/attribute/province/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/category/attribute/resource/album/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/category/attribute/teaching/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/category/tree/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/city/catalog/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/city/catalog/paper/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/complementary/training/group/data/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/copy",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/copy/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/copy/record",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/detail/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/download/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/downloadFileByUser",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/downloadTrainingFile",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/get/objective/data/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/list/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/modifyHomework",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/office",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/operation",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/update/question",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/constitute/paper/updateHomeworkFinal",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/course/phase/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/course/phase/question/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/course/phase/question/list/batch/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/district/catalog/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/district/catalog/paper/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/catalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/catalog/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/catalog/book/copy",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/catalog/level/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/catalog/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/catalog/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/question",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/question/bank/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/question/bank/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/question/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/question/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/question/originList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/question/status",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/question/whether",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/question/whether/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/similar",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/similar/exist/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/favorites/similar/get",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/graphics/wmf2svg/upload",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/knowledge/point/questions/catalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/knowledge/point/questions/questions",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/label/system/dimension/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/catalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/catalog/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/catalog/book/copy",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/catalog/config/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/catalog/config/set",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/catalog/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/catalog/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/parse/history",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/parse/history/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/parse/history/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/parse/history/common",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/parse/history/questions/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/parse/history/short/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/record/detail/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/record/downloadFile",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/record/question/office/relation",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/similar",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/similar/count/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/paper/similar/get",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/bath/repeal",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/check/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/district/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/downloadCount",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/infos",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/office",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/paperDetail/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/phase/info/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/query/user/shares",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/recordDetail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/repeat/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/reset/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/school/info/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/search",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/status/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/status/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/third",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/update",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/papers/share/record/user/info/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/question/link/point/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/question/region/type/classify",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/question/type/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/question/type/list/metadata",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/question/upload",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/bank/cancel/group",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/bank/query/adapter/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/bank/query/conditions",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/bank/query/es/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/bank/query/es/detail/order",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/bank/set/group",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/bank/update/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/basket",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/basket/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/basket/dialog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/basket/parsing/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/basket/parsing/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/cancel/group",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/column",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/data/statistics/get/audit/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/error/correct",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/essay/queryTemplate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/essay/queryTemplateBatch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/essay/saveTemplate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/list/catalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/list/consistency",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/list/order/consistency",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/list/province/city",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/list/tags",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/other/group",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/set/group",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/share/record",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/share/record/audit/phase/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/share/record/batch/add/new",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/share/record/check/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/share/record/district/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/share/record/infos",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/share/record/phase/info/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/share/record/query/user/shares",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/share/record/repeat/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/share/record/reset/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/share/record/school/info/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/share/record/search",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/share/record/single/new",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/share/record/status/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/share/record/update",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/share/record/user/info/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/similar/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/similar/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/similar/new",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/similar/new/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/similar/new/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/similar/teacher/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/smart/column",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/smart/column/v2",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/smart/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/type/management/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/type/management/list/batch/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/video",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/video/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questions/video/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questionsBank/smart/makeup",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/questionsBank/smart/makeup/column",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/school/catalog/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/school/catalog/paper/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/smart/questions/template",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/smart/questions/template/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/smart/questions/template/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/teacher/questions/similar",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/teacher/questions/similar/add",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/teaching/questions/column",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/teaching/questions/list/catalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/three/level/record/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/user/private/paper",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/user/private/paper/downloadFile",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/word/export/constitute/paper",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/word/homework/template/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/word/parse/homework/template/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_questions/word/third/paper/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/book/catalog/school/center",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/catalog/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/catalog/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/catalog/tree",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/homework",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/homework/complementary/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/homework/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/homework/list/complementary",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/homework/list/hitch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/homework/question",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/homework/question/listQuestionld",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/homework/question/score",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/homeworkNew/complementary/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/homeworkNew/list/complementary/group",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/resource",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/resource/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/resource/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/resource/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/resource/teachingList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/resource/valid/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/network/lesson/video/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/course/resource/type/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/ebook/book/preview",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/ebook/book/resource",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/ebook/book/resource/download/data",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/ebookshell/auth/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/album/catalog/tree/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/album/ebook/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/album/link/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/album/video/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/album/video/user/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/micro/lesson/album/delete",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/micro/lesson/album/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/micro/lesson/album/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/micro/lesson/album/status",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/micro/lesson/student/album/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/micro/lesson/student/album/video/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/micro/lesson/student/progress/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/micro/lesson/uploader/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/micro/lesson/video/delete",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/micro/lesson/video/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/micro/lesson/video/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/micro/lesson/video/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/catalog/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/catalog/add",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/catalog/edit",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/catalog/sort",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/catalog/tree",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/enums",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/file/delete",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/file/document/create",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/file/label",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/file/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/file/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/file/status",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/file/upload",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/teacher/catalog/tree",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/teacher/file/labels",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/teacher/file/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/teacher/resource/share",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/fine/prepare/uploader/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/jiaxiang/permission/batch/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/jiaxiang/permission/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/jiaxiang/permission/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/jiaxiang/permission/teacher/my/menus",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/board",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/conference",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/conference/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/conference/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/conference/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/conference/report",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/open/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/open/getOne/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/open/insertLessonOpen",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/open/pages",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/open/report",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/open/updateLessonOpen",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/catalog/check/copy",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/catalog/copy",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/catalog/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/catalog/tree",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/getOne/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/pages",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/receive",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/relevancyPlanOpens",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/report",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/return",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/teacher/bookCatalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/teacher/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/teacher/number",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/teacher/report",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/updateHigh",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/plan/upload",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/record",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/record/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/record/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/record/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/record/pages",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/record/receive",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/record/relevancyLessonOpen",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/record/report",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/record/return",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/record/updateHigh",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/record/upload",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/report/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/scoreItem/getType",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/scoreItem/getValid",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/scoreItem/insertAndUpdate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/template",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/template/addAndMask",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/template/deleteAndMask/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/template/getLessonMaskUrl",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/template/listMask",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/userScoreItem/getOwnAppraiser",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/userScoreItem/insertAndUpdate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/lesson/userScoreItem/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/news/notice",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/paper/manage/center/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/paper/manage/center/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/paper/manage/center/list/province",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/paper/manage/center/real/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/paper/manage/center/update/nums",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/paper/manage/user/collection",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/paper/province/center/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/paper/province/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/paper/real/question/catalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/paper/real/question/center/home",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/paper/real/question/junior/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/privacySpace/config/get",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/privacySpace/config/setNoPassword",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/privacySpace/config/setPassword",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/privacySpace/config/verifyPassword",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/{var}/catalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/{var}/catalog/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/{var}/catalog/book/copy",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/{var}/catalog/level/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/{var}/catalog/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/{var}/catalog/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/basket",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/basket/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/basket/cancel",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/city/catalog/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/collect/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/collect/download",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/collect/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/collect/resourceTypeList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/collect/share/user/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/collect/update/nums",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/collection/catalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/collection/catalog/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/district/catalog/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/fine/album/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/fine/album/version/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/fine/album/version/teachingRecommendList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/school/catalog/grade/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/school/catalog/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/school/catalog/list/show",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/school/catalog/student/show",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/school/catalog/update/grade",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/share/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/share/student/course/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/share/student/data",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/resource/upload",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/share/resource",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/share/resource/auditRecordList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/share/resource/bath/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/share/resource/bath/listByTargetType",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/share/resource/content/upload",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/share/resource/districtList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/share/resource/phaseCourseList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/share/resource/record/audit",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/share/resource/recordDetail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/share/resource/records/update",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/share/resource/resourceSchoolList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/share/resource/resourceTypeList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/share/resource/sharedRecordList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/share/resource/user/info/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/student/share/delete",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/student/share/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/student/share/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/student/share/student/collect",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/student/share/student/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/student/share/uncollect",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/student/share/uploader/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/teacher/lesson/catalog/listGGB",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/teacher/lesson/resource",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/teacher/lesson/resource/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/teacher/lesson/resource/bookCatalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/teacher/lesson/resource/bookCatalog/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/teacher/lesson/resource/cancel",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/teacher/lesson/resource/createOffice",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/teacher/lesson/resource/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/teacher/lesson/resource/list/all/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/teacher/lesson/resource/list/all/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/teacher/lesson/resource/listGGBByCatalogId",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/teacher/lesson/resource/name/update",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/teacher/lesson/resource/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/teacher/lesson/resource/search",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/user/collect/catalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/user/collect/catalog/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/user/collect/catalog/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/user/collect/catalog/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/user/collect/catalog/resource",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/user/collect/catalog/tree",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/user/watch/video/log",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/video/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/video/home/recommended",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/video/package/my/buy",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/video/package/student/free",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_resource/video/package/type",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/equipment/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/equipment/monitor/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/equipment/monitor/list/export",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/follow/student/add",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/follow/student/cancel",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/pad/school/isOpen",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/regionAllCityBy/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/{var}/student/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/administrative/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/administrative/list/school/{var}/grade/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/administrative/list/school/{var}/grade/{var}/divided",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/administrative/school/{var}/grade/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/classTree",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/course/group/change/student/leader",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/course/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/course/number",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/course/teaching/{var}/grade/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/manage/class/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/manage/class/list/by/teacher/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/manage/shift/log/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/manage/shift/log/accepted",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/manage/shift/log/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/manage/student/{var}/is/clear/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/manage/student/shift",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/payment/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/select/course/number",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/student/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/student/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/student/listClassNumber",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/student/setClassNumber",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/student/update/classRepresent",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/teaching/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/teaching/list/all",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/upgrade/history/administrative/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/class/upgrade/history/teaching/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/course/schedule/hasPermission",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/course/schedule/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/course/schedule/saveOrUpdateBatch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/dataScreen/grade/student/ratio",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/dataScreen/student/used/ratio",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/dataScreen/teacher/subject/ratio",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/dataScreen/teacher/used/ratio",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/dataScreen/user/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/dataScreen/user/used/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/dotmatrix/getDotmatrixConfig",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/exam/region/school/grade",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/examination/mode/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/grade/course/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/grade/get/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/grade/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/grade/relationship/config/enable/explain/problem",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/grade/relationship/config/get/class/person/score",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/grade/relationship/config/get/explain/problem/state",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/list/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/list/info/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/list/name",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/mark/setting/school",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/parents/parent/get/student/user",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/parents/student/get/parent/user",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/parents/unbind/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/query/self/management",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/question/vip/user",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/region/list/ids",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/screen/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/settings/expand",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/statistics/day",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/statistics/equipment/active/find",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/statistics/equipment/active/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/statistics/export/school",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/statistics/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/statistics/school/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/structure/course/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/structure/course/list/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/structure/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/structure/list/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/structure/student/count/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/structure/user/course/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/student/detail/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/student/export/school/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/student/grade/class",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/student/grade/schoolYear",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/student/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/student/listByClasses",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/student/phase/grade/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/student/upgrade/history/{var}/account/state/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/student/upgrade/history/detail/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/student/upgrade/history/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teacher/{var}/class/students",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teacher/batch/update/account/state",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teacher/class/course/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teacher/exam/course/leader/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teacher/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teacher/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teacher/list/grade/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teacher/list/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teacher/list/info/search/exam",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teacher/role/teacher/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teacher/title/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teacher/title/list/teacher/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teacher/title/teacher/grade/now",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teaching/group",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teaching/group/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teaching/group/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/teaching/group/list/teachers/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/update/teaching/assistant",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/user/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/user/exam/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/user/region/tree",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/user/school/course/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/user/school/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/user/schools",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/user/teacher/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/year/grade",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/year/grade/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/year/grade/class",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/year/grade/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/year/grade/history/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/year/grade/teacher/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/school/year/grade/upgrade/{var}/type/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_school/schools/{var}/teacher",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/audit/cfg/query",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/audit/cfg/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/audit/set/default",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auditcfg/query/config/open",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auditcfg/query/config/open/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auditcfg/query/user",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/audituser/query/teamLeaders",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/audituser/query/usersbycoursegrade",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/{var}/license/login",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/bind/qrcode/content",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/bind/qrcode/showbtn",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/bind/qrcode/state",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/change/role/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/check/mobile/code",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/hainan/bind",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/login",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/login/hainan/code",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/login/henan/code",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/login/license/key",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/login/mobile",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/login/qrcode",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/login/qrcode/content",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/login/qrcode/state",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/login/white",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/logout",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/refresh/login",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/register",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/register/bind/parent",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/register/bind/school",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/resetPwd",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/selected/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/auth/visitor/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/card/balance/active",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/card/balance/check",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/card/points/active",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/card/points/check",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/card/vip/active",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/home/carousel/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/member/order",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/member/order/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/member/order/cancel/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/member/order/pay",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/member/order/recharge",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/member/order/recharge/record",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/member/order/user/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/member/order/user/list/cancel",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/member/order/user/list/finish",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/member/order/user/list/refund",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/member/order/user/list/unpay",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/member/recharge/money",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/member/user/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/member/user/get/student/parent/max/number",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/member/user/parent/bind/student",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/member/user/vip",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/resource/download/user/forbidden/check/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/school/role",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/school/role/init",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/school/role/list/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/school/role/save/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/sts/token",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/attachment/get/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/attachment/upload",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/attachment/upload/files",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/attachment/upload/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/code",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/dict/order/pay/mode",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/dict/order/step",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/group_school/getSchools/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/group_school/school/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/group_school/school/list/region/tree",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/group_school/subGroupOrSchoolInfoList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/group_user/list/group/by/user",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/group_user/listGroup/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/group_user/search",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/image/rotate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/log/application",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/menu/order",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/menu/order/reset",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/menu/report",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/notice",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/region/province",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/region/tree",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/shenlu/loginplatform",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/sms/check/code",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/sms/verify/code",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/system/upload",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/collect",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/collect/front/resources",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/collect/whether",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/download",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/download/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/download/batch",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/download/batch/zip",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/download/front",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/download/judge/whether",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/download/module/down/box",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/download/order/down/url",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/self/{var}/menus",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/self/{var}/report/menus",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/self/avatar",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/self/cancel",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/self/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/self/mobile",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/user/self/password",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/version/last",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_system/version/url",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/catalogSelect/catalog/updateColumn",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/catalogSelect/getInfo",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/catalogSelect/saveInfo",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/constitute/paper/modifyHomework",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/file/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/file/upload",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/format/file2img",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/format/fileToImg",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/format/mfile2svg",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/format/proc",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/prepare/statistic/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/prepare/statistic/schoolPages",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/relate/query",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/self/classroom/evaluate/publish/question/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/self/classroom/evaluate/task",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/self/classroom/evaluate/task/delete",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/self/classroom/evaluate/task/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/self/classroom/evaluate/task/publish",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/self/classroom/evaluate/task/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/student/homework/answer/getHomeworkInfo",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/student/homework/publish/online",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/student/homework/publish/online/update",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teacher/lesson/add",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teacher/lesson/delete",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teacher/lesson/deleteCompletely",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teacher/lesson/getDeletedList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teacher/lesson/getLatestDeletedByBook",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teacher/lesson/getList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teacher/lesson/getListV2",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teacher/lesson/getListV3",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teacher/lesson/recover",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teacher/lesson/rename",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teacher/lesson/sort",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/catalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/catalog/column/setting/query",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/catalog/column/setting/queryColumn",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/catalog/column/setting/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/catalog/everyday/task/officeSave",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/catalog/exam/del/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/catalog/exam/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/catalog/exam/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/classroom/sediment/catalogs",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/classroom/sediment/class/course",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/config/getConfig",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/config/saveConfig",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/course/network/resource/deleteByIds",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/course/network/resource/query",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/course/network/resource/upload",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/courseRecitation/assertPushTime",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/courseRecitation/getTaskInfo",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/courseRecitation/publish",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/ebook/shelf/v1/resource",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/ebook/shelf/v1/resource/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/eval/cancelRelate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/eval/evalList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/eval/getPdfList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/eval/hwSubmitList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/eval/recordingCommitInfo",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/eval/relate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/exercises/copy",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/exercises/create/office",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/exercises/delete",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/exercises/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/exercises/move",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/exercises/rename",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/exercises/transToOffice",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/fine/album/deleteByIds",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/fine/album/query",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/fine/album/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/homework/catalog/addHomework",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/homework/catalog/convert/office",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/homework/catalog/copyOfficeHomework",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/homework/catalog/delete",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/homework/catalog/deleteOfficeHomework",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/homework/catalog/detail",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/homework/catalog/download/office/file",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/homework/catalog/getHomeworkInfo",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/homework/catalog/hwList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/homework/catalog/hwVersionList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/homework/catalog/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/homework/catalog/officeToPaper",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/homework/catalog/questionList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/homework/catalog/thwList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/lesson",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/lesson/catalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/lesson/catalog/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/lesson/catalog/children",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/lesson/catalog/deleteCatalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/lesson/catalog/rename",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/lesson/resource/hwList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/lesson/resource/resource/{{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/lesson/resource/resource/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/lesson/resource/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/lesson/resource/self/resource",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/lesson/resource/self/resource/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/lesson/resource/support/resource",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/lesson/textBook/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/login/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/mark/getMgtMarkUrl",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/mark/maskProgress",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/mark/maskRecord",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/mark/webMask",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/mark/webMaskDownload",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/ppt/lesson/type/order",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/recording/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/recording/resource",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/resource/listMarkInfo",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/resource/mark",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/school/book/catalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/school/book/catalog/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/school/catalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/school/catalog/adjust",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/school/catalog/book",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/school/catalog/school",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/school/catalog/teacherBook",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/share/teacher/receive/addToCatalog",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/share/teacher/receive/del/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/share/teacher/receive/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/share/teacher/receive/read",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/share/teacher/receive/share/teachers",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/share/teacher/receive/statistics",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/share/teacher/receive/unread/count",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/share/teacher/share",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/share/teacher/teacher/group/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/share/v1/share",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/sync/learn/v1/catalog/column/file/record/statistics",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/sync/learn/v1/catalog/file/record/class/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/sync/learn/v1/catalog/file/record/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/sync/learn/v1/share",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/team/preparation/showTargetType",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/team/preparation/sta",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/team/preparation/theme/resource",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/transfer/file/deleteFile",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/transfer/file/deleteRecord",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/transfer/file/get/token",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/transfer/file/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/transfer/file/update/scanCode",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/v1/ebook",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/v1/ebook/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/v1/ebook/catalog/generate",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/v1/ebook/catalog/save",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/v1/ebook/catalog/status",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/v1/ebook/catalog/tree",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/v1/ebook/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/v1/ebook/record/rename",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/v1/ebook/shelf/attr/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/v1/ebook/shelf/book/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/v1/self/classroom/evaluate/record",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/v1/share/record",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/v1/share/record/list",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/v1/teacher/self/classroom/evaluate/record/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/teaching/v1/teacher/self/classroom/evaluate/record/statistics",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/user/catalog/operation",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/user/teaching/lesson/operation",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/downloadOffice",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/expand/resource",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/expand/resource/page",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/{var}/copy/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/{var}/move/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/{var}/rename",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/{var}/update/teachingLesson",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/convert",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/copyOffice",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/delete",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/deleteHookResource",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/hookUpResource",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/order/{var}/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/teachingCourseRecitationList",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/upload",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/upload/lesson",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/upload/lessonv2",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/uploadTeachingFile",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/resource/uploadToOffice",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_teaching/web/catalog/file/support/resource",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_third/alipay/order/pay/check/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_third/alipay/order/qrcode/pay",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_third/wechat/order/pay/check/{var}",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_third/wechat/order/prepay/native",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_third/wechat/user/query/bind/info",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_third/wechat/user/unbind",
+    "method": "?"
+  },
+  {
+    "path": "/api/v3/server_writebook/book/homework/template/question/list",
+    "method": "?"
+  }
+]
