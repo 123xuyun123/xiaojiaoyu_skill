@@ -215,6 +215,8 @@ PUT /api/v3/server_homework/homework/question/answer/score
 | GET | `/api/v3/server_questions/constitute/paper/download/{paperId}` | 下载 |
 | DELETE | `/api/v3/server_questions/constitute/paper/{paperId}` | 删除（已验证） |
 | PATCH | `/api/v3/server_questions/constitute/paper/download/{paperId}` | **下载计数**（返回操作成功，不是文件） |
+| POST | `/api/v3/server_node_sheet_new/office/download` | 生成下载文件：提交文档模型 + 格式（pdf/word、A4/A3/B5、版本） |
+| POST | `/api/v3/server_questions/constitute/paper/downloadFile` | 取下载结果；生成中返回 `423` 或 `code:500`，稍后重试 |
 | POST | `/api/v3/server_questions/constitute/paper/modifyHomework` | 试卷转作业 |
 | POST | `/api/v3/server_exam_new/exam/paper/custom/sheet/paper/save` | 保存自定义答题卡（未抓） |
 

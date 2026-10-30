@@ -206,6 +206,8 @@ node $X call question-basket-remove --body "@qids.json"
 **已确认形状、尚未做成模板**（见 `endpoints.md` 的「写操作」）：
 
 - 组卷 / 作业答题卡：`references/workflows/paper-generate.md`（同一套 3 个请求，已实测）
+- 下载：`office/download` + `paper/downloadFile`（已实测，生成中会返回 423）
+- 暂存：编辑器无独立按钮，试卷在生成时已入库
 - 发布考试：`PUT /exam/course/relation/{examId}/publish/{?}`（路径变量待确认；当前教师角色无入口，勿盲调）
 - 发布学情：会把成绩推送给学生/家长，属于高风险操作，未实测
 

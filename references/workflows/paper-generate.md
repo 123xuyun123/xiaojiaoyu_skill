@@ -88,6 +88,39 @@ DELETE /api/v3/server_questions/questions/basket
 | 删除 | `DELETE /api/v3/server_questions/constitute/paper/{paperId}` |
 | 转作业 | `POST /api/v3/server_questions/constitute/paper/modifyHomework` |
 
+## 下载（已实测）
+
+生成后的试卷会打开编辑器 `/officeWord?type=paper&paperId=...&fileId=...`，
+点「下载」弹出选项，再点确定触发两个请求：
+
+1. `POST /api/v3/server_node_sheet_new/office/download`
+   提交整份文档模型（`templateInfo`：fileInfo、elementList、样式、页眉页脚）和下载选项。
+2. `POST /api/v3/server_questions/constitute/paper/downloadFile`
+   取生成结果。刚提交时可能返回 `423` 或 `code:500`（还在生成），稍等重试。
+
+下载选项：
+
+| 选项 | 取值 |
+| --- | --- |
+| 文档格式 | `pdf` / `word` |
+| 纸张大小 | `A4` / `A3(双栏)` / `B5` |
+| 版本 | 学生版1（无答案）、学生版2（答案在卷尾）、教师版（答案跟随）、答案版1（答案+解析）、答案版2（仅答案）、答题卡 |
+| 显示设置 | 题目来源、题目分数 |
+
+另外：
+
+- `PATCH /api/v3/server_questions/constitute/paper/download/{paperId}` 是**下载计数**，不是取文件。
+- 试卷详情的 `paperUrl` / `officeFileInfoVO` 在文件生成后才有值，可以直接当下载地址用。
+
+## 暂存
+
+编辑器界面（`/officeWord`、`/HomeworkPaperSheet`）里**没有独立的「暂存」按钮**：
+试卷记录在生成时就已入库（`PUT /constitute/paper`，`paperStatus = 0`），
+编辑内容通过下载/保存动作落库。
+
+如果你指的是别的位置（例如答题卡编辑器的保存、或卷库里的草稿状态），
+需要在该页面抓一次请求才能确认。
+
 ## 验证与清理记录
 
 - 测试卷名称：`skill-test-20261030`，paperId `2122475`
