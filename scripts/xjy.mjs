@@ -504,6 +504,167 @@ async function cmdExams(flags) {
   print({ total: data.total, current: data.current, size: data.size, count: list.length, list }, flags);
 }
 
+async function cmdTargeted(flags) {
+  const ctx = await getContext(false);
+  const cls = pickClass(ctx, flags.class);
+  const allStudents = await listStudents(ctx, cls);
+  let selected = allStudents;
+  if (flags.students) {
+    const refs = String(flags.students).split(",").map((s) => s.trim()).filter(Boolean);
+    const seen = new Set();
+    selected = [];
+    for (const r of refs) {
+      const s = pickStudent(allStudents, r);
+      if (!seen.has(s.studentId)) {
+        seen.add(s.studentId);
+        selected.push(s);
+      }
+    }
+  }
+
+  const threshold = Number(flags.threshold || 0.6);
+  const start = flags.start || daysAgo(Number(flags.days || 120));
+  const end = flags.end || today();
+  const course = pickCourse(ctx, flags.course);
+
+  const perStudent = [];
+  for (const st of selected) {
+    const r = await api("GET", "/api/v3/server_homework/homework/learning/analysis/student/list", {
+      query: {
+        studentId: st.studentId,
+        classId: cls.classId,
+        courseId: course.courseId,
+        startDate: start,
+        endDate: end,
+        isHistory: "false",
+        schoolYearName: ctx.schoolYearName,
+        schoolId: ctx.schoolId,
+      },
+    });
+    perStudent.push({ student: st, rows: Array.isArray(r.data) ? r.data : [] });
+  }
+
+  const weakMap = new Map();
+  for (const p of perStudent) {
+    for (const row of p.rows) {
+      const ratio = Number(row.scoreRatio ?? 0) / 100;
+      if (!row.templateId || !isFinite(ratio)) continue;
+      const belowAvg = Number(row.totalScore) < Number(row.averageScore);
+      if (ratio >= threshold && !belowAvg) continue;
+      const key = String(row.homeworkId);
+      if (!weakMap.has(key)) {
+        weakMap.set(key, {
+          homeworkId: key,
+          templateId: String(row.templateId),
+          homeworkName: row.homeworkName,
+          students: [],
+          minRatio: ratio,
+          classAvg: Number(row.averageScore),
+        });
+      }
+      const e = weakMap.get(key);
+      if (!e.students.includes(p.student.studentName)) e.students.push(p.student.studentName);
+      e.minRatio = Math.min(e.minRatio, ratio);
+    }
+  }
+
+  const weakHomeworks = [...weakMap.values()]
+    .sort((a, b) => a.minRatio - b.minRatio)
+    .slice(0, Number(flags.homeworks || 5));
+
+  const weakQuestions = [];
+  for (const hw of weakHomeworks) {
+    const r = await api("GET", "/api/v3/server_homework/homework/question/answer/classes/reviews", {
+      query: { homeworkId: hw.homeworkId, classId: cls.classId, templateId: hw.templateId },
+    });
+    const list = Array.isArray(r.data) ? r.data : [];
+    for (const q of list) {
+      const max = Number(q.maxScore || 0);
+      const avg = Number(q.avgScore || 0);
+      if (!max || !avg) continue;
+      const rate = avg / max;
+      if (rate >= threshold) continue;
+      weakQuestions.push({
+        homeworkId: hw.homeworkId,
+        homeworkName: hw.homeworkName,
+        questionId: String(q.questionId),
+        questionNumber: q.questionNumber,
+        classRate: Number(rate.toFixed(3)),
+        maxScore: max,
+        type: q.logicTypeName || q.questionTypeName || "",
+        difficulty: q.difficulty,
+        content: String(q.content || q.title || "").replace(/<[^>]+>/g, "").slice(0, 80),
+      });
+    }
+  }
+
+  let recommended = [];
+  if (weakQuestions.length) {
+    const ids = [...new Set(weakQuestions.map((q) => q.questionId))];
+    const r = await api("POST", "/api/v3/server_questions/questions/similar/new/batch", {
+      data: { questionIds: ids },
+    });
+    const groups = Array.isArray(r.data) ? r.data : [];
+    const seen = new Set(ids);
+    for (const g of groups) {
+      for (const q of g.questionsSimilarList || []) {
+        const id = String(q.id);
+        if (seen.has(id)) continue;
+        seen.add(id);
+        recommended.push({
+          id,
+          type: q.logicTypeName || "",
+          typeId: String(q.logicTypeId || ""),
+          difficulty: q.difficultyName || "",
+          content: String(q.content || "").replace(/<[^>]+>/g, "").slice(0, 100),
+          from: String(g.questionId || ""),
+        });
+      }
+    }
+    recommended = recommended.slice(0, Number(flags.limit || 20));
+  }
+
+  const plan = {
+    class: cls.className,
+    course: course.courseName,
+    students: selected.map((s) => s.studentName),
+    range: [start, end],
+    threshold,
+    weakHomeworks: weakHomeworks.map((h) => ({
+      homeworkId: h.homeworkId,
+      homeworkName: h.homeworkName,
+      students: h.students.length,
+      minRatio: Number(h.minRatio.toFixed(3)),
+      classAvg: h.classAvg,
+    })),
+    weakQuestions,
+    recommended,
+  };
+
+  if (flags.add && recommended.length) {
+    const ids = recommended.map((q) => q.id);
+    await api("POST", "/api/v3/server_questions/questions/basket/batch", {
+      data: {
+        userId: ctx.userId,
+        phaseId: ctx.phaseId,
+        phaseName: ctx.phaseName,
+        courseId: course.courseId,
+        courseName: course.courseName,
+        questionIds: ids,
+        typeIds: recommended.map((q) => q.typeId || "0"),
+        typeNames: recommended.map((q) => q.type || ""),
+        questionNumbers: ids.map(() => 1),
+        source: 1,
+        typeOrdered: "",
+        questionSource: "1",
+      },
+    });
+    plan.addedToBasket = ids.length;
+  }
+
+  print(plan, flags);
+}
+
 async function cmdQuestions(flags) {
   const dir = join(SKILL_ROOT, "references", "queries");
   if (flags.templates) {
@@ -715,6 +876,9 @@ try {
     case "questions":
       await cmdQuestions(flags);
       break;
+    case "targeted":
+      await cmdTargeted(flags);
+      break;
     case "ls":
       cmdLs(rest);
       break;
@@ -746,6 +910,7 @@ try {
           "  report --student 张三 [--class 1班] [--days 120]",
           "  exams [--days 60] [--size 10] [--keyword 质检]",
           "  questions [--search 重力] [--page 1] [--size 20] [--template 文件|--templates]",
+          "  targeted [--class 1班] [--students 张三,李四] [--days 120] [--threshold 0.6] [--homeworks 5] [--limit 20] [--add]",
           "  ls [关键词]                搜索接口目录",
           "  calls                      列出可回放的调用模板",
           "  call <名称> [--set a.b=v] [--set-query k=v] [--set-path k=v] [--dry]",

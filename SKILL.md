@@ -77,6 +77,7 @@ node $X students --class 1班                    # 班级学生名单
 node $X report --student 张三 --class 1班     # 学生历次成绩、班排、均分
 node $X exams --days 60                          # 考试列表
 node $X questions --search 重力 --size 20        # 题库检索
+node $X targeted --class 1班 --students 张三,李四  # 学情驱动的针对性出题
 node $X ls mistake                               # 搜接口目录
 ```
 
@@ -84,6 +85,19 @@ node $X ls mistake                               # 搜接口目录
 班级、学生、学科都支持**名称或 ID**，例如 `--class 1班`、`--student <学生ID>`。
 
 ## 场景配方
+
+**学情驱动的针对性出题（核心能力）**
+
+```bash
+node $X targeted --class 1班 --students 张三,李四,王五 \
+  --days 120 --threshold 0.7 --homeworks 4 --limit 10 --out plan.json
+
+# 确认无误后，直接入篮
+node $X targeted --class 1班 --students 张三,李四 --add --out plan.json
+```
+
+流程：学生历次成绩 → 薄弱作业 → 班级得分率低的题 → 相似题 → 入篮 → 组卷。
+完整算法和输出说明见 `references/workflows/targeted-practice.md`。
 
 **看某班作业完成情况**
 

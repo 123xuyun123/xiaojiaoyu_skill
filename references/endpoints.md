@@ -42,6 +42,7 @@
 | GET | `/api/v3/server_homework/homework/learning/analysis/student/list` | studentId、classId、courseId、startDate、endDate、isHistory、schoolYearName、schoolId | **学生历次作业成绩** |
 | GET | `/api/v3/server_homework/homework/answer/sheet/report/class/student/template` | classId、templateIds（可重复）、courseId、schoolYearName、isHistory、isFollowed、schoolId | 班级学生 × 作业矩阵 |
 | GET | `/api/v3/server_homework/homework/answer/sheet/rawScan` | answerSheetId、schoolId、schoolYearName | 答题卡原图 |
+| GET | `/api/v3/server_homework/homework/template/questions/{templateId}` | — | 作业题目列表，含每题 `classAvgScore`、`maxScore`、`difficulty` |
 | GET | `/api/v3/server_homework/homework/teacher/settings` | — | 批阅设置 |
 
 `homework/list` 字段：`homeworkId`、`homeworkName`、`submitNumber`、`missingNumber`、
@@ -76,6 +77,10 @@
 | POST | `/api/v3/server_questions/questions/bank/query/conditions` | `{baseIds:[...]}` | 筛选条件 |
 | GET | `/api/v3/server_questions/questions/basket/dialog` | phaseId、courseId | 试题篮 |
 | POST | `/api/v3/server_questions/questions/type/management/list` | body | 题型管理 |
+| POST | `/api/v3/server_questions/questions/similar/new/batch` | body `{questionIds:[...]}` | **按题取相似题**（学情针对训练用） |
+| POST | `/api/v3/server_base/textbook/list` | body `{phaseId,courseId,textBookTypeId,questionFilter:1}` | 教材列表 |
+| POST | `/api/v3/server_base/textbook/type/list` | body `{phaseId,courseId,questionFilter:1}` | 教材版本 |
+| POST | `/api/v3/server_base/catalogNew/list` | body `{textBookId,includeHidden:true}` | 教材目录树，节点含 `labelId`/`dimensionId`/`value`（知识点） |
 
 ### 题目查询注意
 
@@ -209,6 +214,7 @@ PUT /api/v3/server_homework/homework/question/answer/score
 | GET | `/api/v3/server_questions/constitute/paper/catalog/list?phaseId&courseId` | 卷库目录 |
 | GET | `/api/v3/server_questions/constitute/paper/download/{paperId}` | 下载 |
 | DELETE | `/api/v3/server_questions/constitute/paper/{paperId}` | 删除（已验证） |
+| PATCH | `/api/v3/server_questions/constitute/paper/download/{paperId}` | **下载计数**（返回操作成功，不是文件） |
 | POST | `/api/v3/server_questions/constitute/paper/modifyHomework` | 试卷转作业 |
 | POST | `/api/v3/server_exam_new/exam/paper/custom/sheet/paper/save` | 保存自定义答题卡（未抓） |
 
