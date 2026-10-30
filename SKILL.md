@@ -24,7 +24,8 @@ description: 免浏览器操作新教育智能平台（www.xinjiaoyu.com）。�
 │   ├── endpoints.md        已验证接口：方法、参数、字段、坑
 │   ├── context.md          账号上下文自动解析说明
 │   ├── calls/              可回放的写操作模板
-│   └── queries/            抓好的请求体模板
+│   ├── queries/            抓好的请求体模板
+│   └── workflows/          多步操作流程（组卷等）
 └── scripts/
     ├── xjy.mjs             主 CLI
     └── catalog.mjs         重新生成接口目录
@@ -190,9 +191,8 @@ node $X call question-basket-remove --body "@qids.json"
 
 **已确认形状、尚未做成模板**（见 `endpoints.md` 的「写操作」）：
 
-- 批改赋分：`PUT /api/v3/server_homework/homework/question/answer/score`
-- 组卷生成：`POST /api/v3/server_questions/paper/...`
-- 发布考试：`POST /api/v3/server_exam_new/exam/course/relation/{examId}/publish/{...}`
+- 组卷生成：`references/workflows/paper-generate.md`（3 个请求，已实测）
+- 发布考试：`PUT /exam/course/relation/{examId}/publish/{?}`（路径变量待确认，勿盲调）
 
 这些操作涉及真实数据变更，第一次执行前按上面的抓包流程确认一次请求体，再存成
 `references/calls/<名称>.json`，之后就是一条 `call` 命令。

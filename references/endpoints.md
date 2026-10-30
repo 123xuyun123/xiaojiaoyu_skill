@@ -190,24 +190,44 @@ PUT /api/v3/server_homework/homework/question/answer/score
 | GET | `/api/v3/server_homework/homework/template/detail/{homeworkId}` | — |
 | GET | `/api/v3/server_homework/homework/question/answer/ai/report` | questionAnswerId、homeworkId |
 
-### 组卷 / 答题卡
+### 组卷 / 生成试卷（已验证）
+
+完整流程和字段说明见 `workflows/paper-generate.md`。核心三步：
+
+| 步骤 | 方法 | 路径 | 说明 |
+| --- | --- | --- | --- |
+| 1 | POST | `/api/v3/server_questions/constitute/paper/office` | 生成 Word，body 含 `paperName`、`questionInfo[]`、`produceFileParam` |
+| 2 | PUT | `/api/v3/server_questions/constitute/paper` | 保存试卷记录，`paperInfo` / `scoreInfo` 是 **JSON 字符串** |
+| 3 | POST | `/api/v3/server_questions/constitute/paper/operation` | `{createBy, operation:1, constitutePaperId}` |
+
+配套接口：
 
 | 方法 | 路径 | 说明 |
 | --- | --- | --- |
-| POST | `/api/v3/server_questions/paper/...` | 生成/保存试卷（具体子路径随场景不同） |
-| POST | `/api/v3/server_teaching/constitute/paper/modifyHomework` | 由试卷生成作业 |
-| POST | `/api/v3/server_exam_new/exam/paper/custom/sheet/paper/save` | 保存自定义答题卡 |
-| POST | `/api/v3/server_exam_new/exam/problem/paper/save` | 保存题目试卷 |
+| GET | `/api/v3/server_questions/constitute/paper/detail/{paperId}` | 试卷详情 |
+| POST | `/api/v3/server_questions/constitute/paper/list/page` | 我的卷库分页，**必须带 `catalogId`** |
+| GET | `/api/v3/server_questions/constitute/paper/catalog/list?phaseId&courseId` | 卷库目录 |
+| GET | `/api/v3/server_questions/constitute/paper/download/{paperId}` | 下载 |
+| DELETE | `/api/v3/server_questions/constitute/paper/{paperId}` | 删除（已验证） |
+| POST | `/api/v3/server_questions/constitute/paper/modifyHomework` | 试卷转作业 |
+| POST | `/api/v3/server_exam_new/exam/paper/custom/sheet/paper/save` | 保存自定义答题卡（未抓） |
 
-### 发布考试
+### 发布考试（静态分析，未实际执行）
+
+```
+PUT /api/v3/server_exam_new/exam/course/relation/{examId}/publish/{?}
+```
+
+- 来自前端 `releaseTest(examId, ?)`，方法 PUT，无请求体。
+- 第二个路径变量含义未确认（可能是学科/关系 ID），**首次使用前必须在草稿考试上抓包确认**。
+- 相关：
 
 | 方法 | 路径 | 说明 |
 | --- | --- | --- |
-| POST | `/api/v3/server_exam_new/exam/course/relation/{examId}/publish/{?}` | 发布考试（路径含两个变量，需抓包确认） |
 | POST | `/api/v3/server_exam_new/exam/course/relation/paper/publish/state` | 发布状态 |
+| GET | `/api/v3/server_exam_new/exam/issue/list/{examId}` | 发布进度 |
 | POST | `/api/v3/server_exam_new/exam/info/list/for/allocation` | 分配列表 |
 | POST | `/api/v3/server_exam_report/report/setting/release/save` | 成绩发布设置 |
 
-> 发布考试、批量批改这类不可逆操作，**不要凭猜测直接调用**。先在页面上走一遍，
-> 用钩子抓准 `method + path + body`，确认字段含义后再固化。
+> 发布考试会影响学生端，**不要凭猜测调用**。确认路径变量后，先在一个测试考试上验证。
 
