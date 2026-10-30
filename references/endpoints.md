@@ -212,15 +212,23 @@ PUT /api/v3/server_homework/homework/question/answer/score
 | POST | `/api/v3/server_questions/constitute/paper/modifyHomework` | 试卷转作业 |
 | POST | `/api/v3/server_exam_new/exam/paper/custom/sheet/paper/save` | 保存自定义答题卡（未抓） |
 
-### 发布考试（静态分析，未实际执行）
+**制作作业答题卡** 复用同一组三个接口，只换 `produceFileParam` 版式；生成后前端新开
+`/teacher/HomeworkPaperSheet/{paperId}` 编辑器标签页。详见 `workflows/paper-generate.md`。
+
+### 发布考试（仅静态定位，当前角色无入口）
 
 ```
 PUT /api/v3/server_exam_new/exam/course/relation/{examId}/publish/{?}
 ```
 
-- 来自前端 `releaseTest(examId, ?)`，方法 PUT，无请求体。
-- 第二个路径变量含义未确认（可能是学科/关系 ID），**首次使用前必须在草稿考试上抓包确认**。
-- 相关：
+- 来自前端 API 模块的 `releaseTest(examId, ?)`，方法 PUT，无请求体。
+- 第二个路径变量含义未确认（可能是学科/关系 ID）。
+- **当前账号（学科教师）的考试列表里没有「发布考试」入口**，只有「发布学情」；
+  扫遍主应用 1008 个 chunk 也没有 `releaseTest` 的调用点，说明该操作在别的端
+  （学校管理员/年级管理员）或旧版应用里。
+- 发布考试会直接影响学生端，**不要凭猜测调用**。
+
+相关：
 
 | 方法 | 路径 | 说明 |
 | --- | --- | --- |
@@ -228,6 +236,8 @@ PUT /api/v3/server_exam_new/exam/course/relation/{examId}/publish/{?}
 | GET | `/api/v3/server_exam_new/exam/issue/list/{examId}` | 发布进度 |
 | POST | `/api/v3/server_exam_new/exam/info/list/for/allocation` | 分配列表 |
 | POST | `/api/v3/server_exam_report/report/setting/release/save` | 成绩发布设置 |
+| POST | `/api/v3/server_exam_report/report/publish/...` | 学情报告发布（另一条链路） |
 
-> 发布考试会影响学生端，**不要凭猜测调用**。确认路径变量后，先在一个测试考试上验证。
+> 「发布学情」= 把成绩/报告推送给学生和家长，是当前角色可用的发布操作，
+> 但会影响真实用户，未在测试账号上执行。
 

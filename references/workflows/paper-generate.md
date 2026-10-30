@@ -93,3 +93,24 @@ DELETE /api/v3/server_questions/questions/basket
 - 测试卷名称：`skill-test-20261030`，paperId `2122475`
 - 生成后通过 `DELETE /constitute/paper/2122475` 删除，`detail` 返回「试卷已无效」
 - 试题篮自动清空为 0，无残留
+
+## 附：制作作业答题卡（同一套接口）
+
+页面上的「制作作业答题卡」走的是**同一组三个接口**，区别只在版式参数：
+
+```
+POST /api/v3/server_questions/constitute/paper/office   # produceFileParam.elementList 换成答题卡版式
+PUT  /api/v3/server_questions/constitute/paper          # 同样保存为 constitute/paper 记录
+POST /api/v3/server_questions/constitute/paper/operation
+```
+
+- 生成的答题卡也是 `constitute/paper` 记录，可以用
+  `GET /constitute/paper/detail/{id}` 查询、`DELETE /constitute/paper/{id}` 删除。
+- 创建完成后前端会新开一个标签页：
+  `/teacher/HomeworkPaperSheet/{paperId}?fileId=...&courseId=...&phaseId=...`
+  这是答题卡编辑器，不是独立的创建接口。
+- 实测创建了两份（`2122507`、`2122511`），均已删除并确认失效。
+
+> 结论：组卷和答题卡共用一套「生成文件 → 保存记录 → 提交」管线，
+> 差别只在 `produceFileParam` / `paperInfo` 的版式配置。复用真实请求体、替换
+> `paperName` 和题目数组即可。

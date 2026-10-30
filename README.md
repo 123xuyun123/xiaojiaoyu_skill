@@ -138,7 +138,8 @@ node "$S" call homework-grade-question --set questionAnswerList.0.questionAnswer
 │   ├── endpoints.md
 │   ├── context.md
 │   ├── calls/
-│   └── queries/
+│   ├── queries/
+│   └── workflows/
 └── scripts/
     ├── xjy.mjs
     └── catalog.mjs

@@ -191,8 +191,9 @@ node $X call question-basket-remove --body "@qids.json"
 
 **已确认形状、尚未做成模板**（见 `endpoints.md` 的「写操作」）：
 
-- 组卷生成：`references/workflows/paper-generate.md`（3 个请求，已实测）
-- 发布考试：`PUT /exam/course/relation/{examId}/publish/{?}`（路径变量待确认，勿盲调）
+- 组卷 / 作业答题卡：`references/workflows/paper-generate.md`（同一套 3 个请求，已实测）
+- 发布考试：`PUT /exam/course/relation/{examId}/publish/{?}`（路径变量待确认；当前教师角色无入口，勿盲调）
+- 发布学情：会把成绩推送给学生/家长，属于高风险操作，未实测
 
 这些操作涉及真实数据变更，第一次执行前按上面的抓包流程确认一次请求体，再存成
 `references/calls/<名称>.json`，之后就是一条 `call` 命令。
